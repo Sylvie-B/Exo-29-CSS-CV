@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: darkblue;
+    background-size: cover;
+    background-image: url("https://image.freepik.com/vecteurs-libre/style-plat-fond-circuit-imprime_52683-15499.jpg");
+    background-attachment: fixed;
+}
+
+#titre{
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #98E6FF;
+}
+
+#refAv, #refApr, #adr{
+    font-size: 40px;
+    color: #98E6FF;
+    text-shadow: 2px 2px 1px #2a9df4;
+    width: 18%
+}
+
+.nom{
+    /*nom prenom adr*/
+    text-align: center;
+}
+
+#phone{
+    font-size: 20px;
+    text-shadow: 2px 2px 1px #98E6FF;
+    text-align: right;
+    width: 5%;
+}
+
+#mobil{
+    font-size: 20px;
+    text-shadow: 2px 2px 1px #98E6FF;
+    text-align: right;
+    width: 5%;
+}
+
+#mail{
+    font-size: 20px;
+    text-shadow: 2px 2px 1px #98E6FF;
+    text-align: right;
+    width: 5%;
+}
+
+#points01, #points02, #points03{
+    font-size: 18px;
+    text-align: right;
+    color: #98E6FF;
+    text-shadow: 2px 2px 1px #2a9df4;
+    width: 5%;
+}
+
+
+#pointCur, #pointForm, #pointExp, #pointComp, #pointHob{
+    font-size: 18px;
+    text-align: center;
+    color: #98E6FF;
+    text-shadow: 2px 2px 1px #2a9df4;
+    width: 2%;
+}
+
+.ident, .cursusSco, .formations, .expPro, .competences, .hobbies{
+    margin: 25px;
+    border: 1px solid #2a9df4;
+}
+
+.ident div, .cursusSco div, .formations div, .expPro div, .competences div, .hobbies div{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    width: 95%;
+    background-color: rgba(163, 222, 255, 0.4);
+}
